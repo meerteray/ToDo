@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ToDo
-//
-//  Created by Mert Eray on 9.03.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -13,7 +6,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, Github!")
         }
         .padding()
     }
