@@ -1,14 +1,12 @@
-//
-//  ToDoApp.swift
-//  ToDo
-//
-//  Created by Mert Eray on 9.03.2024.
-//
-
 import SwiftUI
+import FirebaseCore
 
 @main
 struct ToDoApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
